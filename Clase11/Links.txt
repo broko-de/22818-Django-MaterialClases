@@ -1,0 +1,6 @@
+Teoria Expresiones Regulares
+https://relopezbriega.github.io/blog/2015/07/19/expresiones-regulares-con-python/
+
+Practicar Expresiones regulares
+https://regex101.com/
+https://regexr.com/
