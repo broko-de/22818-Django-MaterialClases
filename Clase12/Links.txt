@@ -1,0 +1,7 @@
+https://learndjango.com/tutorials/template-structure
+
+Documentación de Django Templates
+https://docs.djangoproject.com/en/3.2/topics/templates
+
+DTL Sintaxis y filters
+https://docs.djangoproject.com/en/3.2/ref/templates/builtins
