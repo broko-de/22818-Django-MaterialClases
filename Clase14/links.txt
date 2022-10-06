@@ -1,0 +1,5 @@
+Documentacion Statics Files
+https://docs.djangoproject.com/en/3.2/howto/static-files/
+
+Templates de BS ADMIN
+https://startbootstrap.com/template/sb-admin
