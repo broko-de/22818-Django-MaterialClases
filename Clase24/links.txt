@@ -1,0 +1,3 @@
+Documentacion Formularios 
+https://developer.mozilla.org/es/docs/Learn/Server-side/Django/Generic_views#:~:text=Para%20las%20vistas%20basadas%20en,para%20las%20solicitudes%20HTTP%20entrantes.
+https://medium.com/@ksarthak4ever/django-class-based-views-vs-function-based-view-e74b47b2e41b

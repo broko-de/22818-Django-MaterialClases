@@ -1,0 +1,33 @@
+Documentación de relaciones en Django
+https://docs.djangoproject.com/es/3.2/topics/db/models/?lang=es#relationships
+https://docs.djangoproject.com/en/3.2/topics/db/examples/
+
+
+Comandos vistos en clases
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+pip install django-extensions
+
+python manage.py shell_plus
+
+
+>>> categoria_1 = Categoria(nombre='Desarrollo web')
+>>> categoria_1.save()
+>>> categoria_1.nombre = 'Diseño' 
+>>> categoria_1.save()
+>>> curso_1 = Curso(nombre='Diseno UX/UI',descripcion='Test',categoria=categoria_1)     
+>>> curso_1.save()
+
+
+>>> categoria = Categoria(nombre='Categoria 1')
+>>> categoria.save()
+>>> curso_1 = Curso(nombre='Curso 1',descripcion='Test',categoria=categoria)
+>>> curso_1.save()
+>>> curso_2 = Curso(nombre='Curso 2',descripcion='Test',categoria=categoria)
+>>> curso_2.save()
+>>> estudiante = Estudiante(nombre='Fede',apellido='Liquin',email='fede@gmail.com',dni=2334343)
+>>> estudiante.save()
+>>> curso_1.estudiantes.add(estudiante)
