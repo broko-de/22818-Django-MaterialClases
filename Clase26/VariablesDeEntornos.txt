@@ -1,0 +1,6 @@
+ENVS
+Como manejar las configuraciones sensibles locales de nuestro server (usuario, pass, secretkey,. etc) y no subirlas a git. 
+Para eso se suelen utilizar variables de entorno y hay al menos dos plugins que facilitan el tema, python-decouple y django-environ. 
+Ambos descargables de pypi a través de pip. Les dejo los links para que lean sobre los mismos si no los usaron y utilicen el que más cómodo les parezca:
+python-decouple: https://pypi.org/project/python-decouple/
+django-environ: https://pypi.org/project/django-environ/  Tutorial: https://djangocentral.com/environment-variables-in-django/
